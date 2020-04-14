@@ -91,7 +91,7 @@ cbot,BCF,future,Black Sea Corn Financially Settled (Platts) Futures,USD,50.0,0.2
 cbot,BWF,future,Black Sea Wheat Financially Settled (Platts) Futures,USD,50.0,0.25,1.0
 cbot,EH,future,Ethanol Futures,USD,29000.0,0.001,1.0
 cbot,F1U,future,5-Year USD MAC Swap Futures,USD,1000.0,0.0078125,1.0
-cbot,KE,future,KC HRW Wheat Futures,USD,50.0,0.0025,1.0
+cbot,KE,future,KC HRW Wheat Futures,USD,50.0,0.25,1.0
 cbot,TN,future,Ultra 10-Year U.S. Treasury Note Futures,USD,1000.0,0.015625,1.0
 cbot,UB,future,Ultra U.S. Treasury Bond Futures,USD,1000.0,0.03125,1.0
 cbot,YM,future,E-mini Dow ($5) Futures,USD,5.0,1.0,1.0
@@ -142,7 +142,7 @@ cme,GNF,future,Nonfat Dry Milk Futures,USD,44000.0,0.00025,1.0
 cme,HE,future,Lean Hog Futures,USD,400.0,0.025,1.0
 cme,IBV,future,USD-Denominated Ibovespa Index Futures,USD,1.0,5.0,1.0
 cme,J7,future,E-mini Japanese Yen Futures,USD,6250000.0,1e-06,1.0
-cme,LBS,future,Random Length Lumber Futures,USD,110000.0,0.001,1.0
+cme,LBS,future,Random Length Lumber Futures,USD,110000.0,0.1,1.0
 cme,LE,future,Live Cattle Futures,USD,400.0,0.025,1.0
 cme,NKD,future,Nikkei/USD Futures,USD,5.0,5.0,1.0
 cme,NQ,future,E-mini Nasdaq-100 Futures,USD,20.0,0.25,1.0
@@ -150,16 +150,16 @@ cme,RTY,future,E-mini  Russell 2000 Index Futures,USD,50.0,0.1,1.0
 comex,AUP,future,Aluminum MW U.S. Transaction Premium Platts (25MT) Futures,USD,55116.0,1e-05,1.0
 comex,EDP,future,Aluminium European Premium Duty-Paid (Metal Bulletin) Futures,USD,25.0,0.01,1.0
 comex,GC,future,Gold Futures,USD,100.0,0.1,1.0
-comex,HG,future,Copper Futures,USD,25000.0,0.0005,1.0
+comex,HG,future,Copper Futures,USD,25000.0,0.05,1.0
 comex,SI,future,Silver Futures,USD,5000.0,0.005,1.0
 ice,B,future,Brent Crude Futures,USD,1000.0,0.01,1.0
 ice,CC,future,Cocoa Futures,USD,10.0,1.0,1.0
-ice,CT,future,Cotton No. 2 Futures,USD,50000.0,0.0001,1.0
+ice,CT,future,Cotton No. 2 Futures,USD,50000.0,0.01,1.0
 ice,DX,future,US Dollar Index Futures,USD,1000.0,0.005,1.0
 ice,G,future,Low Sulfur Gasoil,USD,100.0,0.25,1.0
-ice,KC,future,Coffee C Arabica Futures,USD,37500.0,0.0005,1.0
-ice,OJ,future,Frozen Concentrated Orange Juice,USD,15000.0,0.0005,1.0
-ice,SB,future,Sugar No. 11 Futures,USD,112000,0.0001,1
+ice,KC,future,Coffee C Arabica Futures,USD,37500.0,0.05,1.0
+ice,OJ,future,Frozen Concentrated Orange Juice,USD,15000.0,0.05,1.0
+ice,SB,future,Sugar No. 11 Futures,USD,112000,0.01,1
 nymex,1S,future,Propane Non-LDH Mont Belvieu (OPIS) BALMO Futures,USD,42000.0,1e-05,1.0
 nymex,22,future,Argus Propane Far East Index BALMO Futures,USD,1000.0,0.001,1.0
 nymex,A0D,future,Mini European 3.5% Fuel Oil Barges FOB Rdam (Platts) Futures,USD,100.0,0.001,1.0
@@ -223,14 +223,14 @@ nymex,FSS,future,1% Fuel Oil Cargoes FOB NWE (Platts) vs. 3.5% Fuel Oil Barges F
 nymex,GCU,future,Gulf Coast HSFO (Platts) vs. European 3.5% Fuel Oil Barges FOB Rdam (Platts) Futures,USD,1000.0,0.001,1.0
 nymex,HCL,future,WTI Houston Crude Oil Futures,USD,1000.0,0.01,1.0
 nymex,HH,future,Natural Gas (Henry Hub) Last-day Financial Futures,USD,10000.0,0.001,1.0
-nymex,HO,future,NY Harbor ULSD Futures,USD,42000.0,0.0001,1.0
+nymex,HO,future,NY Harbor ULSD Futures,USD,42000.0,0.01,1.0
 nymex,HP,future,Natural Gas (Henry Hub) Penultimate Financial Futures,USD,10000.0,0.001,1.0
 nymex,HRC,future,U.S. Midwest Domestic Hot-Rolled Coil Steel (CRU) Index Futures,USD,20.0,1.0,1.0
 nymex,HTT,future,WTI Houston (Argus) vs. WTI Trade Month Futures,USD,1000.0,0.01,1.0
 nymex,NG,future,Henry Hub Natural Gas Futures,USD,10000.0,0.001,1.0
-nymex,PA,future,Palladium Futures,USD,100.0,0.05,1.0
+nymex,PA,future,Palladium Futures,USD,100.0,0.1,1.0
 nymex,PL,future,Platinum Futures,USD,50.0,0.1,1.0
-nymex,RB,future,RBOB Gasoline Futures,USD,42000.0,0.0001,1.0
+nymex,RB,future,RBOB Gasoline Futures,USD,42000.0,0.01,1.0
 nymex,YO,future,No. 11 Sugar Futures,USD,112000.0,0.0001,1.0
 
 fxcm,AUDCAD,forex,,CAD,1,0.00001,1000
